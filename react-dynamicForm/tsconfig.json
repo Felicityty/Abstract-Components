@@ -1,0 +1,10 @@
+{
+  "extends": "./src/.umi/tsconfig.json",
+  "defaultSeverity": "none",
+  "compilerOptions":{
+    "noUnusedParameters": false,
+    "noUnusedLocals": false,
+    "moduleResolution": "node", 
+  },
+  "defaultSevernoUnusedLocalsity": false
+}
