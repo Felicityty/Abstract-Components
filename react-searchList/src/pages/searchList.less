@@ -1,0 +1,59 @@
+@borderColor: #ccc;
+
+.searchList {
+  margin: 20px auto;
+  width: 80%;
+  .searchBox {
+    float: right;
+    .searchButton {
+      margin: 5px;
+    }
+  }
+  .searchTable{
+    border: 1px solid @borderColor;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    .operateButton {
+      margin: 5px;
+    }
+    th,
+    td {
+      border: 1px solid @borderColor;
+      padding: 5px;
+    }
+  }
+  .pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    .paginationRight {
+      .paginationButton {
+        margin: 5px;
+      }
+    }
+  }
+  .editModel {
+    position: absolute;
+    left: 30%;
+    top: 100px;
+    margin: auto;
+    width: 400px;
+    background-color: white;
+    border: 1px solid rgb(58, 191, 252);
+    border-radius: 20px;
+    padding: 30px;
+    .editModelInput {
+      width: 390px !important;
+      padding: 5px 0;
+      margin: 10px 0;
+    }
+    .editModelButtons {
+      display: flex;
+      justify-content: flex-end;
+      .editModelButton {
+        margin: 5px;
+      }
+    }
+  }
+}
